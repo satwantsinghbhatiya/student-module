@@ -1,0 +1,46 @@
+add student entities:
+  title: 'Create new Student entities'
+
+administer student entities:
+  title: 'Administer Student entities'
+  description: 'Allow to access the administration form to configure Student entities.'
+  restrict access: true
+
+delete student entities:
+  title: 'Delete Student entities'
+
+edit student entities:
+  title: 'Edit Student entities'
+
+view published student entities:
+  title: 'View published Student entities'
+
+view unpublished student entities:
+  title: 'View unpublished Student entities'
+
+add score entities:
+  title: 'Create new Score entities'
+
+administer score entities:
+  title: 'Administer Score entities'
+  description: 'Allow to access the administration form to configure Score entities.'
+  restrict access: true
+
+delete score entities:
+  title: 'Delete Score entities'
+
+edit score entities:
+  title: 'Edit Score entities'
+
+view published score entities:
+  title: 'View published Score entities'
+
+view unpublished score entities:
+  title: 'View unpublished Score entities'
+
+access csv importer:
+  title: 'Access CSV Importer'
+  description: 'Import content with CSV Importer'
+  restrict access: true
+
+

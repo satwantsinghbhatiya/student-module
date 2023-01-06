@@ -1,0 +1,14 @@
+entity.score.import_form:
+  path: '/admin/strucutre/score/csv-importer'
+  defaults:
+    _form: '\Drupal\asentech_entities\Form\ImporterForm'
+    _title: 'Import CSV'
+  requirements:
+    _permission: 'access csv importer'
+entity.student.import_form:
+  path: '/admin/strucutre/student/csv-importer'
+  defaults:
+    _form: '\Drupal\asentech_entities\Form\ImporterForm'
+    _title: 'Import CSV'
+  requirements:
+    _permission: 'access csv importer'

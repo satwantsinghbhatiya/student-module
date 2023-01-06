@@ -1,0 +1,7 @@
+services:
+  asentech.plugin.manager.importer:
+    class: Drupal\asentech_entities\Plugin\ImporterManager
+    parent: default_plugin_manager
+  asentech_entities.parser:
+    class: Drupal\asentech_entities\Parser
+    arguments: ['@entity_type.manager']

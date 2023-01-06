@@ -1,0 +1,42 @@
+# Student routing definition
+student.settings_tab:
+  route_name: student.settings
+  title: 'Settings'
+  base_route: student.settings
+
+entity.student.canonical:
+  route_name: entity.student.canonical
+  base_route: entity.student.canonical
+  title: 'View'
+
+entity.student.edit_form:
+  route_name: entity.student.edit_form
+  base_route: entity.student.canonical
+  title: 'Edit'
+
+entity.student.delete_form:
+  route_name:  entity.student.delete_form
+  base_route:  entity.student.canonical
+  title: Delete
+  weight: 10
+# Score routing definition
+score.settings_tab:
+  route_name: score.settings
+  title: 'Settings'
+  base_route: score.settings
+
+entity.score.canonical:
+  route_name: entity.score.canonical
+  base_route: entity.score.canonical
+  title: 'View'
+
+entity.score.edit_form:
+  route_name: entity.score.edit_form
+  base_route: entity.score.canonical
+  title: 'Edit'
+
+entity.score.delete_form:
+  route_name:  entity.score.delete_form
+  base_route:  entity.score.canonical
+  title: Delete
+  weight: 10

@@ -1,0 +1,20 @@
+entity.student.add_form:
+  route_name: entity.student.add_form
+  title: 'Add Student'
+  appears_on:
+    - entity.student.collection
+entity.student.import_form:
+  route_name: entity.student.import_form
+  title: 'Import Student'
+  appears_on:
+    - entity.student.collection
+entity.score.add_form:
+  route_name: entity.score.add_form
+  title: 'Add Score'
+  appears_on:
+    - entity.score.collection
+entity.score.import_form:
+  route_name: entity.score.import_form
+  title: 'Import Score'
+  appears_on:
+    - entity.score.collection
